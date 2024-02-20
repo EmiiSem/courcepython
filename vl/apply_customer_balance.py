@@ -1,0 +1,4 @@
+import stripe
+stripe.api_key = "sk_test_51OlWIPH7oiewvnTBVQDI6gsybpaqeFCLVYcIbQDroJhm11QHxqAgthPxApZJBFLojK6UwCBtQZgY1iWCVO5Y6F4K00kjNVHkNg"
+
+stripe.PaymentIntent.apply_customer_balance("pi_1GszwY2eZvKYlo2CohCEmT6b")
